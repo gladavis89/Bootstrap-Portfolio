@@ -3,64 +3,83 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Contact</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <style>
-  #img {
+  #body {
     background-image: url("assets/images/lodyas.png")
   }
 
   ;
 </style>
 
-<body id="img">
-
-  <header class="container">
-    <div class="navbar navbar-light bg-light rounded">
-      <a class="btn btn-success" href="index.html" id="logo">GarrettLee Alexander Davis</a>
-      <nav class="nav justify-content-end">
-        <a href="index.html">About | </a>
-        <a href="portfolio.html">| Portfolio | </a>
-        <a href="contact.html">| Contact</a>
-      </nav>
+<body id="body" >
+    <div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;">
+      <div data-reactroot="" class="resolved" style="all: initial;"></div>
     </div>
-  </header>
-
-  <div class="container flex-fill">
-    <section class="jumbotron my-4">
-      <h1 class="container" style="border-bottom: 10px black; width: 100%">About me</h1>
-
-      <hr class="container">
-      <div class="row">
-        <img src="assets/images/profile.jpg" class=" rounded img-responsive" width="173px" height="231px" alt="GarrettLee Davis">
-        <div class="col-md-8 pull-left">
-          <p>My name is GarrettLee Alexander Davis. My first name means kind hearted warrior(with a spear), and my middle name 
-            means leader of man. I've always strived to live up to the name my parents gave me (after all, I got it for my birthday).
-          </p>
-
-          <p>Growing up, I was very engrossed with computers and technology in general. I marveled at how people could create worlds
-            with electricity and electronic components. My first job, in fact, was repairing electronics for my school district. 
-            I've always wanted to learn the software side of devices but I didn't think I was smart enough.
-          </p>
-
-          <p>The Trilogy bootcamp has not only proven to me I can code, they have shown me I can code well. Within the short time of this schooling, 
-            they will have trained me to be a master web developer both back-end and front-end. 
-          </p>
+  
+    <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column" id="panel">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">GarrettLee Alexander Davis</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="index.html">About Me</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </nav>
         </div>
-      </div>
-      </hr>
-    </section>
-
-  </div>
-
-  <footer class="footer fixed-bottom bg-light container rounded ">
-      <div class="container ">
-        <p class="text-center ">Copyright &copy;</p>
-      </div>
-    </footer>
-</body>
+      </header>
+      <div class="container" id="bio">
+          <div class="row">
+            <div class="rounded-circle" style="width: 18rem;">
+              <img class=" card card-img-top rounded-circle" src="assets/images/profile.jpg" alt="Card image cap" style="background-color: aqua">
+            </div>
+            <div class="col-lg-8">
+                <h1 class="m-2" style="border-bottom: solid 3px aqua">Who I am</h1>
+                <p>My name is GarrettLee Alexander Davis. My first name means kind hearted warrior(with a spear), and my middle name
+                means leader of man. I've always strived to live up to the name my parents gave me (after all, I got it for my
+                birthday).
+                </p>
+                <p>Growing up, I was very engrossed with computers and technology in general. I marveled at how people could create
+                worlds with electricity and electronic components. My first job, in fact, was repairing electronics for my school
+                district. I've always wanted to learn the software side of devices but I didn't think I was smart enough.
+                </p>
+                <p>The Trilogy bootcamp has not only proven to me I can code, they have shown me I can code well. Within the short
+                time of this schooling, they will have trained me to be a master web developer both back-end and front-end.
+                </p>
+            </div>
+          </div>
+        </div>
+  
+      <footer class="mastfoot mt-auto text-center">
+          <div class="inner">
+            <p>GarrettLee Alexander Davis -- 2018</p>
+          </div>
+        </footer>
+    </div>
+  
+  
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"></script>
+  
+  
+  
+    <div id="i4c-dialogs-container"></div>
+  
+  </body>
 
 </html>
