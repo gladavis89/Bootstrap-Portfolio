@@ -18,7 +18,9 @@ a:hover {
   background-color: #fff;
   border: .05rem solid #fff;
 }
-
+.card {
+    background-color: aqua;
+}
 
 /*
  * Base structure
