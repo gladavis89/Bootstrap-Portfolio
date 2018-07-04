@@ -46,6 +46,10 @@ body {
   max-width: 42em;
 }
 
+#citem{
+  text-align: center
+}
+
 
 /*
  * Header
@@ -115,6 +119,12 @@ body {
 }
 /* mobile settings */
 @media only screen and (max-width: 767px) {
+  #arrows {
+    display: none;
+  }
+  .carousel-item{
+  text-align: center;
+}
   .video-container {
     position:relative;
     padding-bottom:56.25%;
