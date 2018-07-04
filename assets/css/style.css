@@ -109,7 +109,9 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-
+#mobile {
+  display: none;
+}
 
 /*
  * Footer
@@ -118,10 +120,15 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 /* mobile settings */
-@media only screen and (max-width: 767px) {
-  #arrows {
+@media screen and (max-width: 768px) {
+  #mobile {
+    display: block;
+  }
+
+  #carousel {
     display: none;
   }
+ 
   .carousel-item{
   text-align: center;
 }
@@ -157,6 +164,7 @@ body {
       margin-bottom: 5%;
   }
   }
+  
   @media only screen and (max-width: 1024px) {
     #logo {
       display: block;
